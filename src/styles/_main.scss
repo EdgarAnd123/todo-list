@@ -1,0 +1,10 @@
+@import "reset";
+@import "variables";
+@import "components/TodoList";
+
+#app {
+  background-color: #f1f2f7;
+  color: #2c3e50;
+  height: calc( 100vh - 2.35rem );
+  padding: 1rem;
+}

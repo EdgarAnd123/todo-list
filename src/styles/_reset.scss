@@ -1,0 +1,36 @@
+* { font-family: 'Nunito', sans-serif; }
+
+body { margin: 0; }
+
+h2 { margin: 0; }
+
+ul { margin: 0; }
+
+p { 
+  margin: 0; 
+  font-weight: 600;
+}
+
+button {
+  border: 1px solid #7e7e7e;
+  border-radius: .4rem;
+  padding: .4rem .7rem;
+  cursor: pointer;
+}
+
+input {
+  border: 2px solid gray;
+  border-radius: .4rem;
+  padding: .4rem .5rem;
+  font-weight: 600;
+
+  &:focus {
+    outline: none;
+    border: 2px solid #b90e0a;
+  }
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
